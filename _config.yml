@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -15,6 +15,7 @@ author :
   email : Fabien.Lamarque+blog@gmail.com
   github : Fabinout
   twitter : Fabinout
+  avatar : https://pbs.twimg.com/profile_images/692350972778168320/V9OJENr0.jpg
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -134,4 +135,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-midnight
