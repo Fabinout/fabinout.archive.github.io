@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Franchement c'est chaud !
-tagline: Supporting tagline
+title: Blog Fabien Lamarque
+tagline: Clean code et autres
 ---
 {% include JB/setup %}
+
+
 
 <div class="blog-index">  
   {% assign post = site.posts.first %}
